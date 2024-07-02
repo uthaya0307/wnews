@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgb(153, 153, 153);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 60px;
+}
+.con > div{
+    height: 300px;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-position: flex;
+}
+.con > div:hover{
+    opacity: 0.90;
+    transform: scale(1.04)
+    
+}
+.con > div:nth-of-type(2)
+{
+    grid-column: 2/4;
+
+}
+.bg1{
+    background-image: url("ragava.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2{
+    background-image: url("mafurai.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3{
+    background-image: url("cub.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg4{
+    background-image: url("SC_4bf842.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg5{
+    background-image: url("us.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg6{
+    background-image: url("dj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg7{
+    background-image: url("kerala.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg8{
+    background-image: url("b jp.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg9{
+    background-image: url("ajith.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg10{
+    background-image: url("akm.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
